@@ -20,3 +20,4 @@ module.exports = class SupportCommand extends Command {
 		return msg.channel.send(embed)
 	}
 }
+
