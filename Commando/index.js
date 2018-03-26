@@ -8,13 +8,6 @@ const client = new CommandoClient({
     owner: '147401491706150912',
     disableEveryone: true
 });
-console.log("connecting to mysql server..");
-let db_config = ({
-	host: 'localhost',
-	user: 'root',
-	password: 'sweety02',
-	database: 'bot'
-});
 
 client.registry
     .registerDefaultTypes()
@@ -33,4 +26,4 @@ client.registry
            client.user.setActivity(`??help | I help ${client.users.size} online Users`)
            console.log(`I am in ${client.guilds.size} Guilds , with ${client.channels.size} Channels and ${client.users.size} online users!`)
        })
-       client.login('NDI1NzU3ODQ1ODU4OTQyOTc2.DZgEsA.Yo4sxCAd7rryexZr-R8CR-tMdis');
+       client.login('your token');
