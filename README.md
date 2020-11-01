@@ -1,5 +1,4 @@
-# **What can Tzuyu do?**
+# Hey!
+First of all, thanks for using my Bot! 
 
-Tzuyu is a multifunctional bot.
-
-It can give you infos or you can play games with her
+Tzuyu is a Discord.js-Commando Bot, written by Dayase and only Dayase!
